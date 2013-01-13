@@ -10,7 +10,7 @@ public class ReflectTest {
 	public static void main(String[] args) {
 
 		Class clazz = User.class;
-		// field¿‡µƒ Ù–‘;
+		// field, the clazz's attribute.
 		Field[] fs = clazz.getDeclaredFields();
 		for (Field field : fs) {
 			System.out.println(field.getName() + "\t" + field.getType());
