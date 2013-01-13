@@ -5,7 +5,7 @@ public class User {
 	private int id;
 	private String userName;
 	private String userPassword;
-
+	private Boolean isGood = false;
 	public int getId() {
 		return id;
 	}
